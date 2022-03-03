@@ -137,12 +137,21 @@ h2 {
         }
         li { 
             display: inline-block;
+
+            img{
+                width: 40px;
+                height: 40px; 
+            }
         }
         a {
             display: block;
             padding: 6px 40px;
             text-decoration: none;
             color: $white;
+        }
+        .social{
+            width: 30px;
+            height: 30px;
         }
    
     }

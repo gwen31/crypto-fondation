@@ -123,11 +123,19 @@ h2 {
 .container-footer .icon li {
   display: inline-block;
 }
+.container-footer .icon li img {
+  width: 40px;
+  height: 40px;
+}
 .container-footer .icon a {
   display: block;
   padding: 6px 40px;
   text-decoration: none;
   color: #FFFFFC;
+}
+.container-footer .icon .social {
+  width: 30px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
