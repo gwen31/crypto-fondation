@@ -1,11 +1,20 @@
+/*VARIABLE*/
+/*GENERAL*/
 body {
   background: #0B0DC5;
   background: -moz-linear-gradient(-45deg, #0B0DC5 0%, #0A1337 51%, #0B0DC5 100%);
   background: -webkit-linear-gradient(-45deg, #0B0DC5 0%, #0A1337 51%, #0B0DC5 100%);
   background: linear-gradient(135deg, #0B0DC5 0%, #0A1337 51%, #0B0DC5 100%);
   color: #FFFFFC;
+  margin: 0;
+  padding: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
+/*NAVBAR*/
 .navbar {
   background-color: #0A1337;
   position: fixed;
@@ -26,11 +35,7 @@ body {
   color: #FFFFFC;
 }
 
-.container {
-  width: 100%;
-  min-height: 300px;
-}
-
+/*HEADER*/
 .header {
   display: flex;
   justify-content: center;
@@ -55,6 +60,74 @@ body {
 }
 .header .paragraph h2 {
   color: #DDFC74;
+}
+
+/*AUTRE PAGE*/
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid black;
+}
+.container .card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 17%;
+  background-color: #0A1337;
+  box-shadow: 6px 0px 10px 0px #070607;
+  height: 450px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.container .card h3 {
+  color: #070607;
+  text-align: center;
+}
+.container .card .to-do {
+  background-color: #D3F9B5;
+  border-radius: 10px 10px 0px 0px;
+}
+.container .card .in-progress {
+  background-color: #BF6900;
+  border-radius: 10px 10px 0px 0px;
+}
+.container .card .completed {
+  background-color: #DDFC74;
+  border-radius: 10px 10px 0px 0px;
+}
+.container .card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.container-footer {
+  margin: auto;
+  width: 100%;
+  height: 150px;
+  background-color: #0A1337;
+}
+.container-footer .icon {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container-footer .icon ul {
+  list-style: none;
+}
+.container-footer .icon li {
+  display: inline-block;
+}
+.container-footer .icon a {
+  display: block;
+  padding: 6px 40px;
+  text-decoration: none;
+  color: #FFFFFC;
 }
 
 /*# sourceMappingURL=style.css.map */
